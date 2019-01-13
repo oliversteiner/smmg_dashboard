@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains smmg_dashboard.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function smmg_dashboard_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the smmg_dashboard module.
+    case 'help.page.smmg_dashboard':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Dashboard Module for Small Messages') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function smmg_dashboard_theme() {
+  return [
+    'smmg_dashboard' => [
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -1,0 +1,5 @@
+name: 'Small Messages - Dashboard'
+type: module
+description: 'Dashboard Module for Small Messages'
+core: 8.x
+package: 'Small Messages'

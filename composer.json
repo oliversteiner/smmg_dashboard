@@ -1,0 +1,14 @@
+{
+  "name": "drupal/smmg_dashboard",
+  "type": "drupal-module",
+  "description": "Dashboard Module for Small Messages",
+  "keywords": ["Drupal"],
+  "license": "GPL-3.0+",
+  "homepage": "https://github.com/oliversteiner/smmg_dashboard",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/oliversteiner/smmg_dashboard/issues",
+    "source": "https://github.com/oliversteiner/smmg_dashboard"
+  },
+  "require": { }
+}
