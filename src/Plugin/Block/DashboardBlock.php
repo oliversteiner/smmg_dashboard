@@ -49,7 +49,7 @@ class DashboardBlock extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['dashboard_block_inputtext']['#markup'] = '<p>' . $this->configuration['inputtext'] . '</p>';
+ //   $build['dashboard_block_inputtext']['#markup'] = '<p>' . $this->configuration['inputtext'] . '</p>';
 
     return $build;
   }
